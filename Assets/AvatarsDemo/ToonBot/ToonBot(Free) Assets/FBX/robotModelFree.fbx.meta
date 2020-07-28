@@ -1,0 +1,710 @@
+fileFormatVersion: 2
+guid: 3e700741ef6e18c428496ae23e1d4967
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Arm_Lower_L
+    100002: Arm_Lower_R
+    100004: Arm_Upper_L
+    100006: Arm_Upper_R
+    100008: Chest
+    100010: Foot_L
+    100012: Foot_R
+    100014: Hand_L
+    100016: Hand_R
+    100018: head
+    100020: Hips
+    100022: Leg_Lower_L
+    100024: Leg_Lower_R
+    100026: Leg_Upper_L
+    100028: Leg_Upper_R
+    100030: Neck
+    100032: robotMesh
+    100034: //RootNode
+    100036: Spine
+    100038: Toe_L
+    100040: Toe_R
+    400000: Arm_Lower_L
+    400002: Arm_Lower_R
+    400004: Arm_Upper_L
+    400006: Arm_Upper_R
+    400008: Chest
+    400010: Foot_L
+    400012: Foot_R
+    400014: Hand_L
+    400016: Hand_R
+    400018: head
+    400020: Hips
+    400022: Leg_Lower_L
+    400024: Leg_Lower_R
+    400026: Leg_Upper_L
+    400028: Leg_Upper_R
+    400030: Neck
+    400032: robotMesh
+    400034: //RootNode
+    400036: Spine
+    400038: Toe_L
+    400040: Toe_R
+    4300000: robotMesh
+    7400000: T pose
+    7400002: Idle
+    7400004: Walk
+    7400006: Run
+    7400008: Jump
+    9500000: //RootNode
+    13700000: robotMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T pose
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Leg_Upper_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L/Toe_L
+        weight: 1
+      - path: Hips/Leg_Upper_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R/Toe_R
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/head
+        weight: 1
+      - path: robotMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 48
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Leg_Upper_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L/Toe_L
+        weight: 1
+      - path: Hips/Leg_Upper_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R/Toe_R
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/head
+        weight: 1
+      - path: robotMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 49
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Leg_Upper_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L/Toe_L
+        weight: 1
+      - path: Hips/Leg_Upper_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R/Toe_R
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/head
+        weight: 1
+      - path: robotMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 73
+      lastFrame: 96
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Leg_Upper_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L/Toe_L
+        weight: 1
+      - path: Hips/Leg_Upper_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R/Toe_R
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/head
+        weight: 1
+      - path: robotMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Take 001
+      firstFrame: 97
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Hips
+        weight: 1
+      - path: Hips/Leg_Upper_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L
+        weight: 1
+      - path: Hips/Leg_Upper_L/Leg_Lower_L/Foot_L/Toe_L
+        weight: 1
+      - path: Hips/Leg_Upper_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R
+        weight: 1
+      - path: Hips/Leg_Upper_R/Leg_Lower_R/Foot_R/Toe_R
+        weight: 1
+      - path: Hips/Spine
+        weight: 1
+      - path: Hips/Spine/Chest
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_L/Arm_Lower_L/Hand_L
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R
+        weight: 1
+      - path: Hips/Spine/Chest/Arm_Upper_R/Arm_Lower_R/Hand_R
+        weight: 1
+      - path: Hips/Spine/Chest/Neck
+        weight: 1
+      - path: Hips/Spine/Chest/Neck/head
+        weight: 1
+      - path: robotMesh
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Upper_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Upper_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Lower_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Leg_Lower_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Upper_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Upper_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Lower_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Arm_Lower_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Toe_R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: robotModel(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: robotMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: 0, w: 1}
+      scale: {x: 2.46264768, y: 2.46264768, z: 2.46264768}
+      transformModified: 1
+    - name: Hips
+      position: {x: 0, y: 9.54984951, z: .00192712736}
+      rotation: {x: .493085116, y: -.50682056, z: -.493085116, w: .50682056}
+      scale: {x: 1, y: .99999994, z: 1}
+      transformModified: 1
+    - name: Spine
+      position: {x: -1.7292093, y: 3.74700244e-16, z: -3.83961597e-16}
+      rotation: {x: .999786854, y: -.0206463803, z: 1.26422625e-18, w: -6.12192864e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Chest
+      position: {x: -2.64536953, y: 3.08086889e-15, z: 5.74764318e-16}
+      rotation: {x: .99981755, y: -.0191035457, z: -1.16975477e-18, w: 6.12211724e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Neck
+      position: {x: -.999834478, y: 8.04911693e-16, z: -2.26341577e-16}
+      rotation: {x: .99921453, y: -.0396272577, z: -2.42646981e-18, w: 6.1184247e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head
+      position: {x: -1.11091554, y: 8.04911693e-16, z: 2.19330645e-16}
+      rotation: {x: .486090958, y: -.51353246, z: .486090958, w: .51353246}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Upper_L
+      position: {x: .382557869, y: .126969934, z: 2.09303975}
+      rotation: {x: -.482987106, y: .493229359, z: .506174743, w: .516948283}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Lower_L
+      position: {x: -2.9229908, y: 0, z: -4.96824804e-15}
+      rotation: {x: 0, y: .0344615653, z: -0, w: .99940604}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_L
+      position: {x: -3.11243916, y: 0, z: 3.26127992e-15}
+      rotation: {x: .00168096356, y: -.0110111972, z: 3.76171338e-05, w: .999937952}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Upper_R
+      position: {x: .382532537, y: .126970232, z: -2.09303999}
+      rotation: {x: .493227959, y: .482988477, z: -.516946793, w: .506176174}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Arm_Lower_R
+      position: {x: 2.92298579, y: -1.77635684e-15, z: -9.36527158e-08}
+      rotation: {x: 9.38580141e-30, y: .0344615653, z: -5.72053338e-28, w: .99940604}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hand_R
+      position: {x: 3.11244464, y: 5.32907052e-15, z: 1.17284316e-07}
+      rotation: {x: .00168382016, y: -.0110111972, z: 3.7680973e-05, w: .999937952}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg_Upper_L
+      position: {x: .836310148, y: -.0494230315, z: .715036094}
+      rotation: {x: -.00209910213, y: .999997795, z: 3.86181746e-05, w: 1.0738022e-06}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg_Lower_L
+      position: {x: -2.88304663, y: -1.1379786e-15, z: -1.26341004e-31}
+      rotation: {x: .99970752, y: .0241850968, z: 1.48091003e-18, w: 6.12144292e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_L
+      position: {x: -4.65163565, y: -1.08246745e-15, z: 2.49727663e-17}
+      rotation: {x: .881325722, y: .472509205, z: 1.76522826e-05, w: -3.4393579e-05}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_L
+      position: {x: -1.81968915, y: 6.66133815e-16, z: 3.48260402e-16}
+      rotation: {x: -.210054979, y: -.675186574, z: -.210054979, w: .675186574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg_Upper_R
+      position: {x: .836307347, y: -.0494229607, z: -.715035915}
+      rotation: {x: .999997795, y: .00209916406, z: 1.02996808e-06, w: -3.71533424e-05}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Leg_Lower_R
+      position: {x: 2.88304567, y: -4.44619239e-08, z: -5.55111459e-16}
+      rotation: {x: .99970752, y: .0241850968, z: 1.48091003e-18, w: 6.12144292e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Foot_R
+      position: {x: 4.65163898, y: 3.57946317e-09, z: 1.22124533e-15}
+      rotation: {x: .881325722, y: .472509205, z: -1.69333289e-05, w: 3.29505019e-05}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Toe_R
+      position: {x: 1.81968749, y: 9.53438757e-07, z: -3.19380327e-08}
+      rotation: {x: -.210054979, y: -.675186574, z: -.210054979, w: .675186574}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
